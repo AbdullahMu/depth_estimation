@@ -62,7 +62,7 @@ def main():
 
     # Initialize video capture
     # cap = cv.VideoCapture(0)
-    cap = cv.VideoCapture('./depth_estimation/samples_data_tree.avi')
+    cap = cv.VideoCapture('./samples_data_tree.avi')
 
     # Load model
     try:
