@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "depth_estimation"
+version = "0.1.1"
+description = "executable demonstration of TensorFlow implementation for depth estimation"
+authors = ["Abdullah AlGhamdi"]
+license = "Propriety"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.20.1"
+opencv-python = "^4.5.5"
+tensorflow = "^2.7.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+depth_estimation = 'depth_estimation:main'
