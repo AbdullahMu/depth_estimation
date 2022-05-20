@@ -68,7 +68,7 @@ def main():
     try:
         interpreter = tf.lite.Interpreter(model_path=model_path)
     except:
-        rc = subprocess.call("../download_saved_model_lite_hr_depth_k_t_encoder_depth_192x640.sh")
+        rc = subprocess.call("./download_saved_model_lite_hr_depth_k_t_encoder_depth_192x640.sh")
         interpreter = tf.lite.Interpreter(model_path=model_path)
 
 
