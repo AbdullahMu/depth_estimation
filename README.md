@@ -9,7 +9,7 @@ executable demonstration of TensorFlow implementation for depth estimation
 can be installed from PyPI using `pip` or your package manager of choice:
 
 ```bash
-pip install git+https://github.com/AbdullahMu/HR-Depth-demo-package.git
+pip install git+https://github.com/AbdullahMu/depth_estimation
 ```
 ## Usage
 
