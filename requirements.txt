@@ -1,6 +1,6 @@
 numpy==1.18.2
 onnx==1.8.1
-onnx_graphsurgeon==0.3.16
+onnx_graphsurgeon
 onnxruntime==1.11.1
 opencv_contrib_python==4.5.4.60
 sclblonnx==0.1.9
