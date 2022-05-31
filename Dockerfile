@@ -6,7 +6,10 @@ RUN apt-get update \
     python3 \
     python3-pip \
     python3-venv \
-    python3.8-dev \
+    python3-dev \
+    python3-setuptools \
+    ffmpeg libsm6 libxext6 
+    curl tar \
     && rm -rf /var/apt/archives \
     && rm -rf /var/lib/apt/lists
 RUN python3 -m pip install --upgrade pip \
