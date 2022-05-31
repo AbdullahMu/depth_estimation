@@ -30,4 +30,6 @@ Constructing the io_match list from your input and output
 ### CLI
 This Tensorflow implemention is executable as a CLI tool using the `depth_estimation` command. The trained model is downloaded and saved automatically, then is run using the privided video sample.
 
+[![Python application](https://github.com/AbdullahMu/depth_estimation/actions/workflows/python-app.yml/badge.svg)](https://github.com/AbdullahMu/depth_estimation/actions/workflows/python-app.yml)
+
 > Written with [StackEdit](https://stackedit.io/).
