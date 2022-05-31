@@ -15,4 +15,4 @@ RUN apt-get update \
 RUN python3 -m pip install --upgrade pip \
     && python3 -m pip install build
 COPY . /data
-RUN cd data && python3 -m build .
+RUN cd data && python3 -m build . && pip3 install .
