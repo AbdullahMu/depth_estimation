@@ -13,6 +13,9 @@ RUN apt-get update \
     && rm -rf /var/apt/archives \
     && rm -rf /var/lib/apt/lists
 RUN python3 -m pip install --upgrade pip \
-    && python3 -m pip install build
+    && python3 -m pip install build streamlit \
+    && streamlit_image_comparison
 COPY . /data
 RUN cd data && python3 -m build . && pip3 install .
+WORKDIR /data
+RUN export LC_ALL=C.UTF-8 && export LANG=C.UTF-8
