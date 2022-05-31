@@ -8,7 +8,7 @@ RUN apt-get update \
     python3-venv \
     python3-dev \
     python3-setuptools \
-    ffmpeg libsm6 libxext6 
+    ffmpeg libsm6 libxext6 \
     curl tar \
     && rm -rf /var/apt/archives \
     && rm -rf /var/lib/apt/lists
